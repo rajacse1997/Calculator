@@ -6,6 +6,7 @@ public class Calculator {
     {
         System.out.println("Enter first and second number:");
         Scanner inp= new Scanner(System.in);
+        
         int num1,num2;
         num1 = inp.nextInt();
         num2 = inp.nextInt();
@@ -38,7 +39,7 @@ public class Calculator {
     public static int add(int x, int y)
     {
     	int result=0;
-//        write your code here 
+        result=x+y; 
     	
         return result;
     }
@@ -46,18 +47,21 @@ public class Calculator {
     {
     	int result=0;
 //        write your code here
+    	result=x-y;
         return result;
     }
     public static int mult(int x, int y)
     {
     	int result=0;
-//      write your code here        
+//      write your code here 
+    	result=x*y;
     	return result;
     }
     public static int div(int x, int y)
     {
     	int result=0;
 //      write your code here
+    	result=x/y;
     	return result;
     }
 
